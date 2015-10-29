@@ -12,8 +12,6 @@ div#header
 		width: 230px
 		float: left
 	div#navDiv
-		text-transform: uppercase
-		font-family: 'Dancing Script', Helvetica, Arial, sans-serif
 		margin: 4px 0 2px 0
 		float: right
 		margin-right: 10px
@@ -23,8 +21,12 @@ div#header
 				margin: 0
 				display: inline-block
 				background-color: #EFF8FB
-				border-radius: 10px
+				border-radius: 0 0 10px 10px
 				li
+					text-transform: uppercase
+					font-family: 'Dancing Script', Helvetica, Arial, sans-serif
+					color: rgba(105, 86, 167, 0.7)
+					font-weight: 600					
 					list-style-type: none
 					display: inline-block
 					position: relative
@@ -36,14 +38,19 @@ div#header
 						display: table
 					ul:after
 						clear: both
+					&:hover, &.active
+						border-bottom: 5px solid blue
+						color: rgba(105, 86, 167, 1)
 					&:hover > ul
 						display: block
 						position: absolute
+						top: 110%
 						li
 							width: 100%
+							border-bottom: none
 					a, ul li a
 						display: block
 						text-decoration: none
-						color: rgba(0,0,0,0.8)
-						padding: 18px 10px
+						color: inherit
+						padding: 12px 10px
 						font-size: 1.1em

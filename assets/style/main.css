@@ -13,8 +13,6 @@ body {
       width: 230px;
       float: left; }
     body div#wrapper div#header div#navDiv {
-      text-transform: uppercase;
-      font-family: "Dancing Script", Helvetica, Arial, sans-serif;
       margin: 4px 0 2px 0;
       float: right;
       margin-right: 10px; }
@@ -23,8 +21,12 @@ body {
         margin: 0;
         display: inline-block;
         background-color: #EFF8FB;
-        border-radius: 10px; }
+        border-radius: 0 0 10px 10px; }
         body div#wrapper div#header div#navDiv nav#topNav ul.mainLinks li, body div#wrapper div#header div#navDiv nav#topNav ul li {
+          text-transform: uppercase;
+          font-family: "Dancing Script", Helvetica, Arial, sans-serif;
+          color: rgba(105, 86, 167, 0.7);
+          font-weight: 600;
           list-style-type: none;
           display: inline-block;
           position: relative;
@@ -36,21 +38,27 @@ body {
             display: table; }
           body div#wrapper div#header div#navDiv nav#topNav ul.mainLinks li ul:after, body div#wrapper div#header div#navDiv nav#topNav ul li ul:after {
             clear: both; }
+          body div#wrapper div#header div#navDiv nav#topNav ul.mainLinks li:hover, body div#wrapper div#header div#navDiv nav#topNav ul.mainLinks li.active, body div#wrapper div#header div#navDiv nav#topNav ul li:hover, body div#wrapper div#header div#navDiv nav#topNav ul li.active {
+            border-bottom: 5px solid blue;
+            color: #6956a7; }
           body div#wrapper div#header div#navDiv nav#topNav ul.mainLinks li:hover > ul, body div#wrapper div#header div#navDiv nav#topNav ul li:hover > ul {
             display: block;
-            position: absolute; }
+            position: absolute;
+            top: 110%; }
             body div#wrapper div#header div#navDiv nav#topNav ul.mainLinks li:hover > ul li, body div#wrapper div#header div#navDiv nav#topNav ul li:hover > ul li {
-              width: 100%; }
+              width: 100%;
+              border-bottom: none; }
           body div#wrapper div#header div#navDiv nav#topNav ul.mainLinks li a, body div#wrapper div#header div#navDiv nav#topNav ul.mainLinks li ul li a, body div#wrapper div#header div#navDiv nav#topNav ul li a, body div#wrapper div#header div#navDiv nav#topNav ul li ul li a {
             display: block;
             text-decoration: none;
-            color: rgba(0, 0, 0, 0.8);
-            padding: 18px 10px;
+            color: inherit;
+            padding: 12px 10px;
             font-size: 1.1em; }
   body div#wrapper div#banner {
     background: url("../img/banner.png");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; }
+  body div#wrapper div.section {
     height: 450px; }
 
 /*# sourceMappingURL=main.css.map */
