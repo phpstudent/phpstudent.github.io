@@ -14,15 +14,15 @@ body {
       float: left; }
     body div#wrapper div#header div#navDiv {
       text-transform: uppercase;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: "Dancing Script", Helvetica, Arial, sans-serif;
       margin: 4px 0 2px 0;
       float: right;
-      margin-right: 2px; }
+      margin-right: 10px; }
       body div#wrapper div#header div#navDiv nav#topNav ul.mainLinks, body div#wrapper div#header div#navDiv nav#topNav ul {
         padding: 0;
         margin: 0;
         display: inline-block;
-        background-color: grey;
+        background-color: #EFF8FB;
         border-radius: 10px; }
         body div#wrapper div#header div#navDiv nav#topNav ul.mainLinks li, body div#wrapper div#header div#navDiv nav#topNav ul li {
           list-style-type: none;
@@ -44,8 +44,8 @@ body {
           body div#wrapper div#header div#navDiv nav#topNav ul.mainLinks li a, body div#wrapper div#header div#navDiv nav#topNav ul.mainLinks li ul li a, body div#wrapper div#header div#navDiv nav#topNav ul li a, body div#wrapper div#header div#navDiv nav#topNav ul li ul li a {
             display: block;
             text-decoration: none;
-            color: white;
-            padding: 18px 15px;
+            color: rgba(0, 0, 0, 0.8);
+            padding: 18px 10px;
             font-size: 1.1em; }
   body div#wrapper div#banner {
     background: url("../img/banner.png");
