@@ -3,49 +3,141 @@
 	<title>project</title>
 	<link rel="stylesheet" type="text/css" href="assets/style/main.css">
 	<link href="http://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="assets/slick/slick/slick.css"/>
+  	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> 	
+  	<script type="text/javascript" src="assets/slick/slick/slick.min.js"></script>
+
+  	<script type="text/javascript">
+    	$(document).ready(function(){
+      	$('#carousel').slick({
+        	autoplay: true,
+        	arrows:false,
+      		});
+    	});
+  	</script>
 </head>
 <body>
 	<!-- main wrapper div of the documnet starts here-->
 	<div id="wrapper">
-		<!-- header div of the document starts here-->
+		<!-- headerwrapper div of the document starts here-->
 		<div id="header">
-			<!-- logo div inside header-->
-			<div id="logo"></div>
-			<!--navigation div inside header starts here-->
-			<div id="navDiv">
-				<!--navigation bar at the top of the document starts here-->
-				<nav id="topNav">
-					<ul class="mainLinks">
-						<li class="active"><a href="#home">home</a> </li>
-						<li><a href="#about">about us</a> </li>
-						<li><a href="#products">products</a> </li>
-						<li><a href="#services">services</a> </li>
-						<li><a href="#projects">projects</a> 
-							<ul class="sublinks">
-								<li><a href="#dxbproj">dubai</a> </li>
-								<li><a href="#auxproj">abudhabi</a> </li>
-							</ul>
-						</li>
-						<li><a href="#clients">clients</a> </li>
-						<li><a href="#contact">contact us</a>
-							<ul class="sublinks">
-								<li><a href="#dxbCont">dubai</a> </li>
-								<li><a href="#auxCont">abudhabi</a> </li>
-							</ul>
-						</li>
-					</ul>
-				</nav>
-				<!--navigation bar at the top of the document end here-->
+			<!-- headerInner div of the document starts here-->
+			<div id="headerInner">
+				<!-- logo div inside header-->
+				<div id="logo">
+					<a href="#home">
+						<img id="topLogo" src="assets/img/logo.png" alt="Zahra Security Systems and Electricals">
+					</a>
+				</div>
+				<!--navigation div inside header starts here-->
+				<div id="navDiv">
+					<!--navigation bar at the top of the document starts here-->
+					<nav id="topNav">
+						<ul class="mainLinks">
+							<li><a class="active" href="#home">home</a> </li>
+							<li><a href="#about">about us</a> </li>
+							<li><a href="#products">products</a> </li>
+							<li><a href="#services">services</a> </li>
+							<li><a href="#projects">projects</a> 
+								<ul class="sublinks">
+									<li><a href="#dxbproj">dubai</a> </li>
+									<li><a href="#auxproj">abudhabi</a> </li>
+								</ul>
+							</li>
+							<li><a href="#clients">clients</a> </li>
+							<li><a href="#contact">contact us</a>
+								<ul class="sublinks">
+									<li><a href="#dxbCont">dubai</a> </li>
+									<li><a href="#auxCont">abudhabi</a> </li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+					<!--navigation bar at the top of the document end here-->
+				</div>
+				<!--navigation div inside header end here-->
 			</div>
-			<!--navigation div inside header end here-->
+			<!-- headerInner div of the document end here-->
 		</div>
 		<!-- header div of the document end here-->
 
 		<!--banner div start here-->
-		<div id="banner" class="section">
-
+		<div id="bannerWrap">
+			<div id="carousel">
+				<div class="slides"></div>
+				<div class="slides"></div>
+				<div class="slides"></div>
+			</div>
 		</div>
 		<!--banner div end here-->
+
+		<!-- profile div start here-->		
+		<div id="profile" class="Section">
+			<h1>Welcome to Zahra Technology</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<a class="cta">full company profile</a>
+		</div>
+		<!-- profile div start here-->		
+
+		<!-- services div start here-->
+		<div id="services" class="Section">
+			<h1>WE OFFER...</h1>
+			<div class="subservices">
+				<h3>SECURITY SYSTEM</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<a href="#" class="cta">know more</a>
+			</div>
+			<div class="subservices">
+				<h3>VIDEO CONFRENCING</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<a href="#" class="cta">know more</a>
+			</div>
+			<div class="subservices">
+				<h3>24/7 MAINTENANCE</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<a href="#" class="cta">know more</a>
+			</div>
+		</div>
+		<!-- services div end here-->
+
+		<!-- clients div starts here-->
+		<div id="clients" class="Section">
+			<h1>OUR CLIENTS</h1>
+			<div class="client"></div>
+			<div class="client"></div>
+			<div class="client"></div>
+			<div class="client"></div>
+			<div class="clear"></div>
+			<a class="cta">see more</a>
+		</div>
+		<!-- clients div end here-->
 	</div>
 	<!-- main wrapper div of the documnet end here-->
 </body>
