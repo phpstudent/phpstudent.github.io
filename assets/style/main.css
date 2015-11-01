@@ -119,12 +119,9 @@ body {
               body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a.active:after, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li a.active:after {
                 opacity: 1;
                 width: 100%; }
-  body div#wrapper div#bannerWrap {
-    height: 450px; }
-    body div#wrapper div#bannerWrap div#carousel div.slides {
-      background: url("../img/tech.jpg");
-      background-size: cover;
-      background-repeat: no-repeat; }
+  body div#wrapper div#carouselwrap div.carousel {
+    height: 450px;
+    overflow: hidden; }
   body div#wrapper div#profile {
     background-color: #EFF8FB; }
     body div#wrapper div#profile p {

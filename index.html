@@ -3,17 +3,14 @@
 	<title>project</title>
 	<link rel="stylesheet" type="text/css" href="assets/style/main.css">
 	<link href="http://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" type="text/css" href="assets/slick/slick/slick.css"/>
-  	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> 	
-  	<script type="text/javascript" src="assets/slick/slick/slick.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/style/camera/camera.css">
+	<script type="text/javascript" src="assets/js/jquery.js"></script>
+	<script type="text/javascript" src="assets/js/easing.js"></script>
+	<script type="text/javascript" src="assets/js/camera.js"></script>
 
   	<script type="text/javascript">
     	$(document).ready(function(){
-      	$('#carousel').slick({
-        	autoplay: true,
-        	arrows:false,
-      		});
+      		$(".carousel").camera({height: '450px'});
     	});
   	</script>
 </head>
@@ -63,11 +60,11 @@
 		<!-- header div of the document end here-->
 
 		<!--banner div start here-->
-		<div id="bannerWrap">
-			<div id="carousel">
-				<div class="slides"></div>
-				<div class="slides"></div>
-				<div class="slides"></div>
+		<div id="carouselWrap">
+			<div class="carousel">
+				<div data-src="assets/img/carousel/tech.jpg"></div>
+				<div data-src="assets/img/carousel/sec.jpg"></div>
+				<div data-src="assets/img/carousel/maintenance.jpg"></div>
 			</div>
 		</div>
 		<!--banner div end here-->
