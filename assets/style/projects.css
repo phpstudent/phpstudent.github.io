@@ -1,0 +1,101 @@
+body {
+  margin: 0; }
+  body div#wrapper div#header {
+    background-color: #EFF8FB;
+    text-align: center; }
+    body div#wrapper div#header div#headerInner {
+      width: 90%;
+      margin: auto;
+      text-align: initial; }
+      body div#wrapper div#header div#headerInner:after {
+        content: "";
+        display: table;
+        clear: both; }
+      body div#wrapper div#header div#headerInner div#logo {
+        margin: auto;
+        float: left;
+        padding: 10px 0; }
+        body div#wrapper div#header div#headerInner div#logo a img#topLogo {
+          height: 60px;
+          width: 230px; }
+      body div#wrapper div#header div#headerInner div#navDiv {
+        margin: 4px 0 2px 0;
+        float: right; }
+        body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul {
+          padding: 0;
+          margin: 0;
+          display: table;
+          table-layout: fixed;
+          background-color: #EFF8FB;
+          z-index: 2; }
+          body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li {
+            display: table-cell;
+            max-width: 100%;
+            vertical-align: middle;
+            position: relative;
+            padding: 0;
+            box-sizing: border-box;
+            height: 80px;
+            text-transform: uppercase;
+            font-family: Helvetica, Arial, sans-serif;
+            color: rgba(0, 0, 0, 0.5);
+            font-weight: 600;
+            list-style-type: none; }
+            body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > a:after, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li:hover > a:after {
+              opacity: 1;
+              width: 100%; }
+            body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li ul, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li ul {
+              display: none; }
+            body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li ul:before, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li ul:after, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li ul:before, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li ul:after {
+              content: " ";
+              display: table; }
+            body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li ul:after, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li ul:after {
+              clear: both; }
+            body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li:hover > ul {
+              display: block;
+              position: absolute;
+              top: 100%;
+              width: 120%;
+              border-top: 1px solid red; }
+              body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul:before, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul:after, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li:hover > ul:before, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li:hover > ul:after {
+                display: none; }
+              body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul li, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li:hover > ul li {
+                width: 100%;
+                display: block;
+                height: initial; }
+                body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul li a, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li:hover > ul li a {
+                  display: block;
+                  text-decoration: none;
+                  color: inherit;
+                  padding: 12px 15px;
+                  font-size: 0.9em; }
+                  body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul li a:hover, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li:hover > ul li a:hover {
+                    background-color: white;
+                    color: black; }
+                  body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul li a:after, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul li a:before, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li:hover > ul li a:after, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li:hover > ul li a:before {
+                    display: none; }
+            body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li a {
+              display: block;
+              text-decoration: none;
+              color: inherit;
+              padding: 12px 15px;
+              font-size: 1em; }
+              body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a:hover, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a.active, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li a:hover, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li a.active {
+                color: black; }
+              body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a:after, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li a:after {
+                content: "";
+                display: block;
+                width: 0;
+                height: 3px;
+                background-color: orange;
+                opacity: 0;
+                transition: width 0.7s; }
+              body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a.active:after, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li a.active:after {
+                opacity: 1;
+                width: 100%; }
+  body div#wrapper div#banner {
+    height: 430px;
+    width: 100%;
+    background-image: url(../img/projects/banner.jpg); }
+
+/*# sourceMappingURL=projects.css.map */
