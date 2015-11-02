@@ -2,6 +2,7 @@
 body
 	margin: 0
 	div#wrapper
+		//setting properties for all the sections on home page
 		div.Section
 			padding: 50px 100px
 			h1
@@ -14,7 +15,7 @@ body
 				color: #00B0DC
 			p
 				font-family: arial, helvetica, san-serif
-
+			//setting look of all cta links on home page
 			a.cta
 				text-decoration: none
 				text-transform: uppercase
@@ -31,7 +32,7 @@ body
 				&:hover
 					color: white
 					background-color: #FAAC58
-		//import header.sass
+		//import other sass to main sass file
 		@import import/header
 		@import import/index/banner
 		@import import/index/profile

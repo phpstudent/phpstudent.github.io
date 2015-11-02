@@ -29,7 +29,7 @@ body {
         color: white;
         background-color: #FAAC58; }
   body div#wrapper div#header {
-    background-color: #EFF8FB;
+    background-color: #F3F3DC;
     text-align: center; }
     body div#wrapper div#header div#headerInner {
       width: 90%;
@@ -51,7 +51,7 @@ body {
         float: right; }
         body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul {
           display: block;
-          background-color: #EFF8FB;
+          background-color: #F3F3DC;
           margin: 0;
           padding: 0;
           z-index: 2; }
@@ -124,7 +124,7 @@ body {
     height: 450px;
     overflow: hidden; }
   body div#wrapper div#profile {
-    background-color: #EFF8FB; }
+    background-color: #F3F3DC; }
     body div#wrapper div#profile p {
       font-size: 1.2em; }
   body div#wrapper div#services {
@@ -144,7 +144,7 @@ body {
         font-family: arial, helvetica, san-serif; }
   body div#wrapper div#clients {
     text-align: center;
-    background-color: #EFF8FB; }
+    background-color: #F3F3DC; }
     body div#wrapper div#clients div.client {
       display: inline-block;
       height: 150px;
