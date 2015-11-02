@@ -6,16 +6,20 @@ div#footer
 	div#navDiv
 		nav#bottomNav
 			ul.mainLinks
-				li
-					list-style-type: none
-					display: inline-block
-					padding: 0 15px
-					font-weight: 700					
-					a
-						text-decoration: none
-						text-transform: uppercase
-						font-family: arial, helvetica, sans-serif
-						color: inherit
+				padding: 0 20px
+				span.bNav
+					vertical-align: top
+					li
+						list-style-type: none
+						display: inline-block
+						padding: 0 15px
+						font-weight: 700
+						margin-bottom: 10px				
+						a
+							text-decoration: none
+							text-transform: uppercase
+							font-family: arial, helvetica, sans-serif
+							color: inherit
 	div.copyright
 		width: 85%
 		padding: 10px 10px 0 10px
@@ -30,3 +34,21 @@ div#footer
 		content: ""
 		display: block
 		clear: both
+@media only screen and (max-width: 820px)
+	div#footer
+		div#navDiv
+			nav#bottomNav
+				ul.mainLinks
+					padding: 0 20px
+					span.bNav
+						display: inline-block
+						li
+							display: block
+		div.copyright
+			span#left
+				float: none
+				display: block
+			span#right
+				float: none
+				display: block
+				margin-top: 5px
