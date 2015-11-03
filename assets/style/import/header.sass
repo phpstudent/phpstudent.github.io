@@ -18,7 +18,10 @@ div#header
 				img#topLogo
 					height: 60px
 					width: 230px
-
+		label.toggle
+			display: none
+		input#toggler
+			display: none
 		div#navDiv
 			margin: 4px 0 2px 0
 			float: right
@@ -46,6 +49,10 @@ div#header
 							width: 100%		
 						ul
 							display: none
+							li
+								a:after
+									display: none
+
 						ul:before,ul:after
 							content: " "
 							display: table
@@ -54,11 +61,11 @@ div#header
 						&:hover > ul
 							display: block
 							position: absolute
+							box-sizing: border-box
 							top: 100%
 							width: 100%
 							border-top: 1px solid red
-							&:before, &:after
-								display: none
+							
 							li
 								width: 100%
 								display: block
@@ -73,8 +80,6 @@ div#header
 									&:hover
 										background-color: white
 										color: rgba(0,0,0,1)
-									&:after, &:before
-										display: none
 						a
 							display: block
 							text-decoration: none
@@ -94,3 +99,75 @@ div#header
 							&.active:after
 								opacity: 1
 								width: 100%
+
+@media only screen and(max-width: 1160px)
+	div#header
+		div#headerInner
+			div#navDiv
+				nav#topNav
+					ul.mainLinks
+						li
+							a
+								padding: 12px 6px
+@media only screen and(max-width: 1040px)
+	div#header
+		div#headerInner
+			text-align: center
+			div#logo
+				float: none
+			div#navDiv
+				float: none
+
+@media only screen and(max-width: 765px)
+	div#header
+		div#headerInner
+			div#logo
+			label.toggle
+				display: block
+				cursor: pointer
+				z-index: 2
+				font-size: 1.5em
+				position: absolute
+				left: 20px
+				top: 30px
+			input#toggler
+				&:checked + div#navDiv
+					height: 100%
+					width: 200px
+					z-index: 2
+					display: block
+					position: absolute
+					left: 0
+					top: 84px
+			div#navDiv
+				display: none
+				text-align: left
+				nav#topNav
+					ul.mainLinks
+						display: block
+						li
+							padding: 0
+							display: list-item
+							position: initial
+							a
+								display: block
+
+							ul
+								display: block
+								position: initial
+								margin: auto
+								padding-left: 40px
+								li
+									a
+										padding: 6px
+										display: block
+							&:hover > ul.sublinks
+								display: block
+								position: initial
+								border: none
+								padding-bottom: 0
+								li
+									margin-top: 0
+									a
+										font-size: 1em
+										padding: 6px 6px			

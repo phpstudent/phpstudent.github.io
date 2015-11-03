@@ -14,6 +14,8 @@ body
 			h3
 				color: #00B0DC
 			p
+				color: rgba(0,0,0,0.8)
+				line-height: 1.5
 				font-family: arial, helvetica, san-serif
 			//setting look of all cta links on home page
 			a.cta
@@ -35,16 +37,18 @@ body
 		//import other sass to main sass file
 		@import import/header
 		@import import/index/banner
-		@import import/index/profile
-		@import import/index/services
 		@import import/index/clients
+		@import import/index/services
+		@import import/index/profile			
 		@import import/index/brands
 		@import import/footer
 
-@media only screen and (max-width: 550px)
+@media only screen and (max-width: 890px)
 	body
 		margin: 0
 		div#wrapper
 			//setting properties for all the sections on home page
 			div.Section
-				padding: 50px
+				padding: 50px 15px	
+				p
+					font-weight: 100

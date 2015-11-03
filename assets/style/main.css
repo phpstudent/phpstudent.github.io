@@ -11,6 +11,8 @@ body {
     body div#wrapper div.Section h3 {
       color: #00B0DC; }
     body div#wrapper div.Section p {
+      color: rgba(0, 0, 0, 0.8);
+      line-height: 1.5;
       font-family: arial, helvetica, san-serif; }
     body div#wrapper div.Section a.cta {
       text-decoration: none;
@@ -22,7 +24,7 @@ body {
       border: 2px solid #FAAC58;
       padding: 5px 15px;
       margin-top: 15px;
-      font-size: 20px;
+      font-size: 1.2em;
       transition: color 0.3s;
       transition: background-color 0.3s; }
       body div#wrapper div.Section a.cta:hover {
@@ -46,6 +48,10 @@ body {
         body div#wrapper div#header div#headerInner div#logo a img#topLogo {
           height: 60px;
           width: 230px; }
+      body div#wrapper div#header div#headerInner label.toggle {
+        display: none; }
+      body div#wrapper div#header div#headerInner input#toggler {
+        display: none; }
       body div#wrapper div#header div#headerInner div#navDiv {
         margin: 4px 0 2px 0;
         float: right; }
@@ -71,6 +77,8 @@ body {
               width: 100%; }
             body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li ul, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li ul {
               display: none; }
+              body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li ul li a:after, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li ul li a:after {
+                display: none; }
             body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li ul:before, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li ul:after, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li ul:before, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li ul:after {
               content: " ";
               display: table; }
@@ -79,11 +87,10 @@ body {
             body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li:hover > ul {
               display: block;
               position: absolute;
+              box-sizing: border-box;
               top: 100%;
               width: 100%;
               border-top: 1px solid red; }
-              body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul:before, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul:after, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li:hover > ul:before, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li:hover > ul:after {
-                display: none; }
               body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul li, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li:hover > ul li {
                 width: 100%;
                 display: block;
@@ -98,8 +105,6 @@ body {
                   body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul li a:hover, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li:hover > ul li a:hover {
                     background-color: white;
                     color: black; }
-                  body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul li a:after, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul li a:before, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li:hover > ul li a:after, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li:hover > ul li a:before {
-                    display: none; }
             body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li a {
               display: block;
               text-decoration: none;
@@ -119,12 +124,77 @@ body {
               body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a.active:after, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li a.active:after {
                 opacity: 1;
                 width: 100%; }
+  @media only screen and (max-width: 1160px) {
+    body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a {
+      padding: 12px 6px; } }
+  @media only screen and (max-width: 1040px) {
+    body div#wrapper div#header div#headerInner {
+      text-align: center; }
+      body div#wrapper div#header div#headerInner div#logo {
+        float: none; }
+      body div#wrapper div#header div#headerInner div#navDiv {
+        float: none; } }
+  @media only screen and (max-width: 765px) {
+    body div#wrapper div#header div#headerInner label.toggle {
+      display: block;
+      cursor: pointer;
+      z-index: 2;
+      font-size: 1.5em;
+      position: absolute;
+      left: 20px;
+      top: 30px; }
+    body div#wrapper div#header div#headerInner input#toggler:checked + div#navDiv {
+      height: 100%;
+      width: 200px;
+      z-index: 2;
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 84px; }
+    body div#wrapper div#header div#headerInner div#navDiv {
+      display: none;
+      text-align: left; }
+      body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks {
+        display: block; }
+        body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li {
+          padding: 0;
+          display: list-item;
+          position: initial; }
+          body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a {
+            display: block; }
+          body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li ul {
+            display: block;
+            position: initial;
+            margin: auto;
+            padding-left: 40px; }
+            body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li ul li a {
+              padding: 6px;
+              display: block; }
+          body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul.sublinks {
+            display: block;
+            position: initial;
+            border: none;
+            padding-bottom: 0; }
+            body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul.sublinks li {
+              margin-top: 0; }
+              body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul.sublinks li a {
+                font-size: 1em;
+                padding: 6px 6px; } }
   body div#wrapper div#carouselwrap div.carousel {
     margin-bottom: 50px; }
-  body div#wrapper div#profile {
+  body div#wrapper div#clients {
+    text-align: center;
     background-color: #F3F3DC; }
-    body div#wrapper div#profile p {
-      font-size: 1.2em; }
+    body div#wrapper div#clients div.client {
+      display: inline-block;
+      height: auto;
+      width: 250px;
+      margin: 10px 0; }
+      body div#wrapper div#clients div.client img {
+        height: auto;
+        width: 100%; }
+    body div#wrapper div#clients div.clear {
+      padding-bottom: 15px; }
   body div#wrapper div#services {
     text-align: center;
     background-color: white; }
@@ -147,19 +217,8 @@ body {
     body div#wrapper div#services div.subservices {
       display: block;
       width: 100%; } }
-  body div#wrapper div#clients {
-    text-align: center;
+  body div#wrapper div#profile {
     background-color: #F3F3DC; }
-    body div#wrapper div#clients div.client {
-      display: inline-block;
-      height: auto;
-      width: 250px;
-      margin: 10px 0; }
-      body div#wrapper div#clients div.client img {
-        height: auto;
-        width: 100%; }
-    body div#wrapper div#clients div.clear {
-      padding-bottom: 15px; }
   body div#wrapper div#brands {
     text-align: center;
     background-color: white; }
@@ -221,10 +280,12 @@ body {
       display: block;
       margin-top: 5px; } }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 890px) {
   body {
     margin: 0; }
     body div#wrapper div.Section {
-      padding: 50px; } }
+      padding: 50px 15px; }
+      body div#wrapper div.Section p {
+        font-weight: 100; } }
 
 /*# sourceMappingURL=main.css.map */
