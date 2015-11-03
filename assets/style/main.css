@@ -180,8 +180,6 @@ body {
               body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul.sublinks li a {
                 font-size: 1em;
                 padding: 6px 6px; } }
-  body div#wrapper div#carouselwrap div.carousel {
-    margin-bottom: 50px; }
   body div#wrapper div#clients {
     text-align: center;
     background-color: #F3F3DC; }
