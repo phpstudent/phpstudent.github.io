@@ -145,28 +145,37 @@ body {
       top: 30px; }
     body div#wrapper div#header div#headerInner input#toggler:checked + div#navDiv {
       height: 100%;
+      margin-left: 0px; }
+    body div#wrapper div#header div#headerInner div#navDiv {
       width: 200px;
       z-index: 2;
-      display: block;
       position: absolute;
       left: 0;
-      top: 84px; }
-    body div#wrapper div#header div#headerInner div#navDiv {
-      display: none;
+      top: 84px;
+      display: inline-block;
+      margin-left: -200px;
+      transition: margin-left 1s;
       text-align: left; }
       body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks {
-        display: block; }
+        display: block;
+        background-color: grey; }
         body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li {
           padding: 0;
+          padding-left: 20px;
           display: list-item;
-          position: initial; }
+          position: initial;
+          color: rgba(255, 255, 255, 0.7); }
           body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a {
             display: block; }
+            body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a:hover {
+              color: white; }
+            body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a:after, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a.active {
+              display: none; }
           body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li ul {
             display: block;
+            background-color: grey;
             position: initial;
-            margin: auto;
-            padding-left: 40px; }
+            margin: auto; }
             body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li ul li a {
               padding: 6px;
               display: block; }
@@ -176,10 +185,15 @@ body {
             border: none;
             padding-bottom: 0; }
             body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul.sublinks li {
-              margin-top: 0; }
+              color: rgba(255, 255, 255, 0.7);
+              margin-top: 0;
+              padding-left: 20px; }
               body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul.sublinks li a {
                 font-size: 1em;
-                padding: 6px 6px; } }
+                padding: 6px 6px; }
+                body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul.sublinks li a:hover {
+                  background-color: grey;
+                  color: white; } }
   body div#wrapper div#clients {
     text-align: center;
     background-color: #F3F3DC; }
@@ -267,6 +281,7 @@ body {
     body div#wrapper div#footer div#navDiv nav#bottomNav ul.mainLinks {
       padding: 0 20px; }
       body div#wrapper div#footer div#navDiv nav#bottomNav ul.mainLinks span.bNav {
+        text-align: left;
         display: inline-block; }
         body div#wrapper div#footer div#navDiv nav#bottomNav ul.mainLinks span.bNav li {
           display: block; }
