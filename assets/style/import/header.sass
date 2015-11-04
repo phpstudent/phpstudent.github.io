@@ -123,13 +123,20 @@ div#header
 		div#headerInner
 			div#logo
 			label.toggle
-				display: block
+				display: inline-block
 				cursor: pointer
 				z-index: 2
 				font-size: 1.5em
 				position: absolute
 				left: 20px
-				top: 25px
+				top: 30px
+				&:before
+					content: ""
+					background-image: url('../img/menu-icon.png')
+					background-size: 20px 20px
+					height: 20px
+					width: 20px
+					display: inline-block
 			input#toggler
 				&:checked + div#navDiv
 					height: 100%
