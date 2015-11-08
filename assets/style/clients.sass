@@ -1,0 +1,75 @@
+@import import/variables	
+body
+	margin: 0
+	div#wrapper
+		@import import/header.sass
+		div#banner
+			content: url(../img/clients/banner.jpg)
+			height: auto
+			width: 100%
+		div#content
+			font-family: arial, helvetica, sans-serif		
+			padding: 30px 20px
+			background-color: $lightPurple
+			h2
+				color: orange	
+			p
+				line-height: 1.5
+			p.note
+				font-weight: 800		
+			div#clients
+				padding: 10px 20px
+				text-align: center
+				div.client
+					margin: 10px 5px 10px 0
+					display: inline-block
+					padding: 5px
+					border: 2px solid orange
+					border-radius: 5px
+					position: relative
+					color: orange
+					overflow: hidden
+					text-align: left
+					width: 300px
+					img
+						width: 100%
+						height: 200px
+					div.details
+
+						box-sizing: border-box
+						padding: 10px 10px
+						background-color: rgba(0,0,0,0.8)
+						span.name
+							font-weight: 700
+							font-size: 1em
+							&:after
+								content: ""
+								display: table
+								margin-top: 5px
+	@import import/footer.sass
+
+@media only screen and (max-width: 450px)
+	body
+		div#wrapper
+			div#content
+				div#clients
+					padding: 0
+					div.client
+						width: 200px					
+						img
+							width: 100%
+							height: 130px
+						div.details
+							position: static
+							box-sizing: border-box
+							max-width: 100%
+							margin-right: 0
+							border-radius: 0
+							padding: 10px
+							background-color: rgba(0,0,0,1)
+							span.name
+								font-size: 0.8em
+								span.field
+									display: none
+							span.location
+								display: none
