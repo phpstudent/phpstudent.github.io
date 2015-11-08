@@ -1,0 +1,79 @@
+@import import/variables	
+body
+	margin: 0
+	div#wrapper
+		@import import/header.sass
+		div#banner
+			content: url(../img/about/banner.jpg)
+			height: auto
+			width: 100%
+		div#content
+			font-family: arial, helvetica, sans-serif		
+			padding: 20px 50px
+			background-color: $lightPurple
+			h1,h3
+				color: orange
+			p
+				line-height: 1.3
+				margin-left: 10px
+			div#projects
+				padding: 10px 20px
+				text-align: center
+				div.project
+					margin: 10px 5px 10px 0
+					display: inline-block
+					padding: 5px
+					border: 2px solid orange
+					border-radius: 5px
+					position: relative
+					color: orange
+					overflow: hidden
+					text-align: left
+					width: 300px
+					img
+						width: 100%
+						height: 200px
+					div.details
+						position: absolute
+						bottom: 10px
+						left: 15px
+						max-width: 95%
+						box-sizing: border-box
+						border-radius: 10px						
+						padding: 5px 10px
+						margin-right: 10px
+						background-color: rgba(0,0,0,0.7)
+						span.name
+							font-weight: 700
+							font-size: 1em
+							&:after
+								content: ""
+								display: table
+								margin-top: 5px
+	@import import/footer.sass
+
+@media only screen and (max-width: 450px)
+	body
+		div#wrapper
+			div#content
+				div#projects
+					padding: 0
+					div.project
+						width: 200px					
+						img
+							width: 100%
+							height: 130px
+						div.details
+							position: static
+							box-sizing: border-box
+							max-width: 100%
+							margin-right: 0
+							border-radius: 0
+							padding: 10px
+							background-color: rgba(0,0,0,1)
+							span.name
+								font-size: 0.8em
+								span.field
+									display: none
+							span.location
+								display: none

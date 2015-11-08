@@ -1,0 +1,15 @@
+div#brands {
+  text-align: center;
+  background-color: white; }
+  div#brands div.brand {
+    display: inline-block;
+    height: auto;
+    width: 240px;
+    margin: 10px 0; }
+    div#brands div.brand img {
+      height: auto;
+      width: 80%; }
+  div#brands div.clear {
+    padding-bottom: 15px; }
+
+/*# sourceMappingURL=brands.css.map */
