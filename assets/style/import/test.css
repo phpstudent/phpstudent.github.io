@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$lightPurple".
-        on line 2 of C:\Users\mazhar.ZT\gitpages\phpstudent.github.io\assets\style\import\header.sass
+        on line 2 of C:\Users\mazhar.ZT\gitpages\phpstudent.github.io\assets\style\import\test.sass
 
 1: div#header
 2: 	background-color: $lightPurple
@@ -11,7 +11,7 @@ Error: Undefined variable: "$lightPurple".
 7: 		text-align: initial
 
 Backtrace:
-C:\Users\mazhar.ZT\gitpages\phpstudent.github.io\assets\style\import\header.sass:2
+C:\Users\mazhar.ZT\gitpages\phpstudent.github.io\assets\style\import\test.sass:2
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
@@ -58,4 +58,4 @@ C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$lightPurple\".\A         on line 2 of C:\Users\mazhar.ZT\gitpages\phpstudent.github.io\assets\style\import\header.sass\A \A 1: div#header\A 2: 	background-color: $lightPurple\A 3: 	text-align: center\A 4: 	div#headerInner\A 5: 		width: 90%\A 6: 		margin: auto\A 7: 		text-align: initial"; }
+  content: "Error: Undefined variable: \"$lightPurple\".\A         on line 2 of C:\Users\mazhar.ZT\gitpages\phpstudent.github.io\assets\style\import\test.sass\A \A 1: div#header\A 2: 	background-color: $lightPurple\A 3: 	text-align: center\A 4: 	div#headerInner\A 5: 		width: 90%\A 6: 		margin: auto\A 7: 		text-align: initial"; }

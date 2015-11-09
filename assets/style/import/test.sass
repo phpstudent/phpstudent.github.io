@@ -1,0 +1,192 @@
+div#header
+	background-color: $lightPurple
+	text-align: center
+	div#headerInner
+		width: 90%
+		margin: auto
+		text-align: initial
+		//clear fix for logo and nav float
+		&:after
+			content: ""
+			display: table
+			clear: both
+		div#logo
+			margin: auto
+			float: left
+			padding: 10px 0
+			a
+				img#topLogo
+					height: 60px
+					width: 230px
+		label.toggle
+			display: none
+		input#toggler
+			display: none
+		div#navDiv
+			margin: 4px 0 2px 0
+			float: right
+			nav#topNav
+
+				ul.mainLinks, ul
+					display: block
+					background-color: $lightPurple
+					margin: 0
+					padding: 0
+					z-index: 2
+					li
+						display: inline-block
+						vertical-align: middle
+						position: relative
+						padding: 15px 0
+						box-sizing: border-box
+						text-transform: uppercase
+						font-family: Helvetica, Arial, sans-serif
+						color: rgba(0,0,0,0.5)
+						font-weight: 600					
+						list-style-type: none
+						&:hover > a:after
+							opacity: 1
+							width: 100%		
+						ul
+							display: none
+							li
+								a:after
+									display: none
+
+						ul:before,ul:after
+							content: " "
+							display: table
+						ul:after
+							clear: both
+						&:hover > ul
+							display: block
+							position: absolute
+							box-sizing: border-box
+							top: 100%
+							width: 100%
+							border-top: 1px solid red
+							
+							li
+								width: 100%
+								display: block
+								height: initial
+								padding: 0
+								a
+									display: block
+									text-decoration: none
+									color: inherit
+									padding: 12px 15px
+									font-size: 0.9em
+									&:hover
+										background-color: white
+										color: rgba(0,0,0,1)
+						a
+							display: block
+							text-decoration: none
+							color: inherit
+							padding: 12px 15px
+							font-size: 1em
+							&:hover, &.active
+								color: rgba(0,0,0,1)
+							&:after
+								content: ""
+								display: block
+								width: 0
+								height: 3px
+								background-color: orange
+								opacity: 0
+								transition: width 0.7s
+							&.active:after
+								opacity: 1
+								width: 100%
+
+@media only screen and(max-width: 1160px)
+	div#header
+		div#headerInner
+			div#navDiv
+				nav#topNav
+					ul.mainLinks
+						li
+							a
+								padding: 12px 6px
+@media only screen and(max-width: 1040px)
+	div#header
+		div#headerInner
+			text-align: center
+			div#logo
+				float: none
+			div#navDiv
+				float: none
+
+@media only screen and(max-width: 765px)
+	div#header
+		div#headerInner
+			div#logo
+			label.toggle
+				display: inline-block
+				cursor: pointer
+				z-index: 2
+				font-size: 1.5em
+				position: absolute
+				left: 20px
+				top: 30px
+				&:before
+					content: ""
+					background-image: url('../img/menu-icon.png')
+					background-size: 20px 20px
+					height: 20px
+					width: 20px
+					display: inline-block
+			input#toggler
+				&:checked + div#navDiv
+					opacity: 1
+			div#navDiv
+				opacity: 0
+				width: 100%
+				z-index: 2
+				position: absolute
+				left: 0
+				top: 80px
+				text-align: left
+				transition: opacity 0.4s
+				nav#topNav
+					ul.mainLinks
+						display: block
+						background-color: #6956A7
+						li
+							padding: 0
+							padding-left: 20px
+							display: list-item
+							position: initial
+							color: rgba(255,255,255,0.7)					
+							a
+								display: block
+								&:hover
+									color: rgba(255,255,255,1)					
+								&:after, &.active
+									display: none
+
+							ul
+								display: block
+								background-color: #6956A7
+								position: initial
+								margin: auto
+								li
+									a
+										padding: 6px
+										display: block
+							&:hover > ul.sublinks
+								display: block
+								position: initial
+								border: none
+								padding-bottom: 0
+								li
+									color: rgba(255,255,255,0.7)					
+									margin-top: 0
+									padding-left: 20px
+									a
+										font-size: 1em
+										padding: 6px 6px
+										&:hover
+											background-color: grey	
+											color: rgba(255,255,255,1)							
