@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>project</title>
+	<link rel="stylesheet" type="text/css" href="assets/style/main.css">
+	<link rel="stylesheet" type="text/css" href="assets/style/camera/camera.css">
+	<link rel="stylesheet" type="text/css" href="assets/js/plugins/meanmenu.min.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="assets/js/jquery.js"></script>
+	<script type="text/javascript" src="assets/js/easing.js"></script>
+	<script type="text/javascript" src="assets/js/camera.js"></script>
+	<script type="text/javascript" src="assets/js/fittext.js"></script>
+  	<script type="text/javascript" src="assets/js/script.js"></script>
+  	<script src="assets/js/plugins/jquery.meanmenu.min.js"></script>
+  	<script type="text/javascript">
+  		jQuery(document).ready(function () {
+		    jQuery('nav#topNav').meanmenu({
+				meanMenuContainer: 'div#navDiv',
+				meanScreenWidth: "765",
+				
+		    });
+		});
+  	</script>
+</head>
+<body>
+	<!-- main wrapper div of the documnet starts here-->
+	<div id="wrapper">
+		<!-- headerwrapper div of the document starts here-->
+		<div id="header">
+			<!-- headerInner div of the document starts here-->
+			<div id="headerInner">
+				<!-- logo div inside header-->
+				<div id="logo">
+					<a href="index.html">
+						<img id="topLogo" src="assets/img/logo.png" alt="Zahra Security Systems and Electricals">
+					</a>
+				</div>
+				<!-- menu toggle div starts here-->
+				<label for="toggler" class="toggle"></label>				
+				<input type="checkbox" id="toggler" value="">
+				<!--menu toggle div end here-->
+				<!--navigation div inside header starts here-->
+				<div id="navDiv">
+					<!--navigation bar at the top of the document starts here-->
+					<nav id="topNav">
+						<ul class="mainLinks">
+							<li><a class="active" href="index.html">home</a> </li>
+							<li><a href="about.html">about us</a> </li>
+							<li><a href="#products">products</a> </li>
+							<li><a href="services.html">services</a> </li>
+							<li><a href="projects.html">projects</a> 
+								<ul class="sublinks">
+									<li><a href="#dxbproj">dubai</a> </li>
+									<li><a href="#auxproj">abudhabi</a> </li>
+								</ul>
+							</li>
+							<li><a href="clients.html">clients</a> </li>
+							<li><a href="#contact">contact us</a>
+								<ul class="sublinks">
+									<li><a href="#dxbCont">dubai</a> </li>
+									<li><a href="#auxCont">abudhabi</a> </li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+					<!--navigation bar at the top of the document end here-->
+				</div>
+				<!--navigation div inside header end here-->
+			</div>
+			<!-- headerInner div of the document end here-->
+		</div>
+		<!-- header div of the document end here-->
+
+		<!--banner div start here-->
+		<div id="carouselWrap">
+			<!--carousel div is handle by camera.js-->
+			<div class="carousel" style="margin-bottom: 50px">
+				<div data-src="assets/img/index/carousel/tech.jpg"></div>
+				<div data-src="assets/img/index/carousel/sec.jpg"></div>
+				<div data-src="assets/img/index/carousel/maintenance.jpg"></div>
+			</div>
+			<!--ending camera.js carousel div-->
+		</div>
+		<!--banner div end here-->
+		
+		<!-- clients div starts here-->
+		<div id="clients" class="Section">
+			<h1>OUR CLIENTS</h1>
+			<div class="client">
+				<img src="assets/img/index/clients/empost.jpg"> 
+			</div>
+			<div class="client">
+				<img src="assets/img/index/clients/enbd.jpg"> 
+			</div>
+			<div class="client">
+				<img src="assets/img/index/clients/emaar.jpg"> 
+			</div>
+			<div class="client">
+				<img src="assets/img/index/clients/ghurair.jpg"> 
+			</div>
+			<div class="clear"></div>
+			<a href="#" class="cta">see more</a>
+		</div>
+		<!-- clients div end here-->
+
+		<!-- services div start here-->
+		<div id="services" class="Section">
+			<h1>WE OFFER...</h1>
+			<div class="subservices">
+				<h3>SECURITY SYSTEM</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<a href="services.html#security" class="cta">know more</a>
+			</div>
+			<div class="subservices">
+				<h3>VIDEO CONFRENCING</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<a href="services.html#tech" class="cta">know more</a>
+			</div>
+			<div class="subservices">
+				<h3>24/7 MAINTENANCE</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<a href="services.html#maintenance" class="cta">know more</a>
+			</div>
+		</div>
+		<!-- services div end here-->
+
+		<!-- brands div starts here-->
+		<div id="brands" class="Section">
+			<h1>BRANDS</h1>
+			<div class="brand">
+				<img src="assets/img/index/brands/pelco.jpg"> 
+			</div>
+			<div class="brand">
+				<img src="assets/img/index/brands/aiphone.png"> 
+			</div>
+			<div class="brand">
+				<img src="assets/img/index/brands/honeywell.jpg"> 
+			</div>
+			<div class="brand">
+				<img src="assets/img/index/brands/polycom.jpg"> 
+			</div>
+			<div class="clear"></div>
+			<a href="#" class="cta">see more</a>
+		</div>
+		<!-- brands div end here-->
+		<!-- profile div start here-->		
+		<div id="profile" class="Section">
+			<h1>Welcome to Zahra Group</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<a href="about.html" id="profileCta"class="cta">company profile</a>
+		</div>
+		<!-- profile div end here-->		
+		<!--footer div starts here-->
+		<div id="footer">
+			<!--navigation div inside footer starts here-->
+			<div id="navDiv">
+				<!--navigation bar at the bottom of the document starts here-->
+				<nav id="bottomNav">
+					<ul class="mainLinks">
+						<span class="bNav">
+							<li><a href="index.html" class="active">home</a> </li>
+							<li><a href="about.html">about us</a> </li>
+							<li><a href="#products">products</a> </li>
+							<li><a href="services.html">services</a> </li>
+						</span>
+						<span class="bNav">
+							<li><a href="projects.html">projects</a> </li>
+							<li><a href="clients.html">clients</a> </li>
+							<li><a href="#contact">contact us</a></li>
+						</span>
+					</ul>
+				</nav>
+				<!--navigation bar at the bottom of the document end here-->
+			</div>
+			<!--navigation div inside footer end here-->
+			<div class="copyright">
+				<span id="left">&copy; 2015 Zahra Security & Technology. All Rights Reserved</span>
+				<span id="right">
+					Tel : +971 4 3474422
+					Tel : +971 2 6272305
+				</span>
+			</div>			
+		</div>
+		<!--footer div end here-->
+	</div>
+	<!-- main wrapper div of the documnet end here-->
+</body>
+</html>

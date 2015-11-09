@@ -135,70 +135,9 @@ body {
       body div#wrapper div#header div#headerInner div#navDiv {
         float: none; } }
   @media only screen and (max-width: 765px) {
-    body div#wrapper div#header div#headerInner label.toggle {
-      display: inline-block;
-      cursor: pointer;
-      z-index: 2;
-      font-size: 1.5em;
-      position: absolute;
-      left: 20px;
-      top: 30px; }
-      body div#wrapper div#header div#headerInner label.toggle:before {
-        content: "";
-        background-image: url("../img/menu-icon.png");
-        background-size: 20px 20px;
-        height: 20px;
-        width: 20px;
-        display: inline-block; }
-    body div#wrapper div#header div#headerInner input#toggler:checked + div#navDiv {
-      opacity: 1; }
-    body div#wrapper div#header div#headerInner div#navDiv {
-      opacity: 0;
-      width: 100%;
-      z-index: 2;
-      position: absolute;
-      left: 0;
-      top: 80px;
-      text-align: left;
-      transition: opacity 0.4s; }
-      body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks {
-        display: block;
-        background-color: #6956A7; }
-        body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li {
-          padding: 0;
-          padding-left: 20px;
-          display: list-item;
-          position: initial;
-          color: rgba(255, 255, 255, 0.7); }
-          body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a {
-            display: block; }
-            body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a:hover {
-              color: white; }
-            body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a:after, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a.active {
-              display: none; }
-          body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li ul {
-            display: block;
-            background-color: grey;
-            position: initial;
-            margin: auto; }
-            body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li ul li a {
-              padding: 6px;
-              display: block; }
-          body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul.sublinks {
-            display: block;
-            position: initial;
-            border: none;
-            padding-bottom: 0; }
-            body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul.sublinks li {
-              color: rgba(255, 255, 255, 0.7);
-              margin-top: 0;
-              padding-left: 20px; }
-              body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul.sublinks li a {
-                font-size: 1em;
-                padding: 6px 6px; }
-                body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul.sublinks li a:hover {
-                  background-color: grey;
-                  color: white; } }
+    body div#wrapper div#header div#headerInner {
+      margin: 0 0 0 0;
+      width: 100%; } }
   body div#wrapper div#clients {
     text-align: center;
     background-color: #F3F3DC; }

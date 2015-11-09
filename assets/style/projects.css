@@ -124,18 +124,18 @@ body {
       height: 100%;
       margin-left: 0px; }
     body div#wrapper div#header div#headerInner div#navDiv {
-      width: 200px;
+      width: 100%;
       z-index: 2;
       position: absolute;
       left: 0;
-      top: 84px;
+      top: 80px;
       display: inline-block;
-      margin-left: -200px;
+      margin-left: -100%;
       transition: margin-left 0.7s;
       text-align: left; }
       body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks {
         display: block;
-        background-color: grey; }
+        background-color: #6956A7; }
         body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li {
           padding: 0;
           padding-left: 20px;
@@ -150,7 +150,7 @@ body {
               display: none; }
           body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li ul {
             display: block;
-            background-color: grey;
+            background-color: #6956A7;
             position: initial;
             margin: auto; }
             body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li ul li a {
@@ -169,7 +169,7 @@ body {
                 font-size: 1em;
                 padding: 6px 6px; }
                 body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul.sublinks li a:hover {
-                  background-color: grey;
+                  background-color: #6956A7;
                   color: white; } }
   body div#wrapper div#banner {
     content: url(../img/projects/banner.jpg);

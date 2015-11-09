@@ -1,3 +1,4 @@
+@import variables
 div#header
 	background-color: $lightPurple
 	text-align: center
@@ -121,74 +122,5 @@ div#header
 @media only screen and(max-width: 765px)
 	div#header
 		div#headerInner
-			div#logo
-			label.toggle
-				display: inline-block
-				cursor: pointer
-				z-index: 2
-				font-size: 1.5em
-				position: absolute
-				left: 20px
-				top: 30px
-				&:before
-					content: ""
-					background-image: url('../img/menu-icon.png')
-					background-size: 20px 20px
-					height: 20px
-					width: 20px
-					display: inline-block
-			input#toggler
-				&:checked + div#navDiv
-					height: 100%
-					margin-left: 0px
-			div#navDiv
-				width: 200px
-				z-index: 2
-				position: absolute
-				left: 0
-				top: 84px
-				display: inline-block
-				margin-left: -200px
-				transition: margin-left 0.7s
-				text-align: left
-				nav#topNav
-					ul.mainLinks
-						display: block
-						background-color: grey
-						li
-							padding: 0
-							padding-left: 20px
-							display: list-item
-							position: initial
-							color: rgba(255,255,255,0.7)					
-							a
-								display: block
-								&:hover
-									color: rgba(255,255,255,1)					
-								&:after, &.active
-									display: none
-
-							ul
-								display: block
-								background-color: grey
-								position: initial
-								margin: auto
-								li
-									a
-										padding: 6px
-										display: block
-							&:hover > ul.sublinks
-								display: block
-								position: initial
-								border: none
-								padding-bottom: 0
-								li
-									color: rgba(255,255,255,0.7)					
-									margin-top: 0
-									padding-left: 20px
-									a
-										font-size: 1em
-										padding: 6px 6px
-										&:hover
-											background-color: grey	
-											color: rgba(255,255,255,1)							
+			margin: 0 0 0 0
+			width: 100%

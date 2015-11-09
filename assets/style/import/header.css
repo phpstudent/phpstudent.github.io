@@ -1,61 +1,111 @@
-/*
-Error: Undefined variable: "$lightPurple".
-        on line 2 of C:\Users\mazhar.ZT\gitpages\phpstudent.github.io\assets\style\import\header.sass
+div#header {
+  background-color: #F3F3DC;
+  text-align: center; }
+  div#header div#headerInner {
+    width: 90%;
+    margin: auto;
+    text-align: initial; }
+    div#header div#headerInner:after {
+      content: "";
+      display: table;
+      clear: both; }
+    div#header div#headerInner div#logo {
+      margin: auto;
+      float: left;
+      padding: 10px 0; }
+      div#header div#headerInner div#logo a img#topLogo {
+        height: 60px;
+        width: 230px; }
+    div#header div#headerInner label.toggle {
+      display: none; }
+    div#header div#headerInner input#toggler {
+      display: none; }
+    div#header div#headerInner div#navDiv {
+      margin: 4px 0 2px 0;
+      float: right; }
+      div#header div#headerInner div#navDiv nav#topNav ul.mainLinks, div#header div#headerInner div#navDiv nav#topNav ul {
+        display: block;
+        background-color: #F3F3DC;
+        margin: 0;
+        padding: 0;
+        z-index: 2; }
+        div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li, div#header div#headerInner div#navDiv nav#topNav ul li {
+          display: inline-block;
+          vertical-align: middle;
+          position: relative;
+          padding: 15px 0;
+          box-sizing: border-box;
+          text-transform: uppercase;
+          font-family: Helvetica, Arial, sans-serif;
+          color: rgba(0, 0, 0, 0.5);
+          font-weight: 600;
+          list-style-type: none; }
+          div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > a:after, div#header div#headerInner div#navDiv nav#topNav ul li:hover > a:after {
+            opacity: 1;
+            width: 100%; }
+          div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li ul, div#header div#headerInner div#navDiv nav#topNav ul li ul {
+            display: none; }
+            div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li ul li a:after, div#header div#headerInner div#navDiv nav#topNav ul li ul li a:after {
+              display: none; }
+          div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li ul:before, div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li ul:after, div#header div#headerInner div#navDiv nav#topNav ul li ul:before, div#header div#headerInner div#navDiv nav#topNav ul li ul:after {
+            content: " ";
+            display: table; }
+          div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li ul:after, div#header div#headerInner div#navDiv nav#topNav ul li ul:after {
+            clear: both; }
+          div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul, div#header div#headerInner div#navDiv nav#topNav ul li:hover > ul {
+            display: block;
+            position: absolute;
+            box-sizing: border-box;
+            top: 100%;
+            width: 100%;
+            border-top: 1px solid red; }
+            div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul li, div#header div#headerInner div#navDiv nav#topNav ul li:hover > ul li {
+              width: 100%;
+              display: block;
+              height: initial;
+              padding: 0; }
+              div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul li a, div#header div#headerInner div#navDiv nav#topNav ul li:hover > ul li a {
+                display: block;
+                text-decoration: none;
+                color: inherit;
+                padding: 12px 15px;
+                font-size: 0.9em; }
+                div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul li a:hover, div#header div#headerInner div#navDiv nav#topNav ul li:hover > ul li a:hover {
+                  background-color: white;
+                  color: black; }
+          div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a, div#header div#headerInner div#navDiv nav#topNav ul li a {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+            padding: 12px 15px;
+            font-size: 1em; }
+            div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a:hover, div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a.active, div#header div#headerInner div#navDiv nav#topNav ul li a:hover, div#header div#headerInner div#navDiv nav#topNav ul li a.active {
+              color: black; }
+            div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a:after, div#header div#headerInner div#navDiv nav#topNav ul li a:after {
+              content: "";
+              display: block;
+              width: 0;
+              height: 3px;
+              background-color: orange;
+              opacity: 0;
+              transition: width 0.7s; }
+            div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a.active:after, div#header div#headerInner div#navDiv nav#topNav ul li a.active:after {
+              opacity: 1;
+              width: 100%; }
 
-1: div#header
-2: 	background-color: $lightPurple
-3: 	text-align: center
-4: 	div#headerInner
-5: 		width: 90%
-6: 		margin: auto
-7: 		text-align: initial
+@media only screen and (max-width: 1160px) {
+  div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a {
+    padding: 12px 6px; } }
+@media only screen and (max-width: 1040px) {
+  div#header div#headerInner {
+    text-align: center; }
+    div#header div#headerInner div#logo {
+      float: none; }
+    div#header div#headerInner div#navDiv {
+      float: none; } }
+@media only screen and (max-width: 765px) {
+  div#header div#headerInner {
+    margin: 0 0 0 0;
+    width: 100%; } }
 
-Backtrace:
-C:\Users\mazhar.ZT\gitpages\phpstudent.github.io\assets\style\import\header.sass:2
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/script/tree/variable.rb:49:in `_perform'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/script/tree/node.rb:50:in `perform'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:157:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:8:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
-C:/Program Files (x86)/Koala/bin/sass:18:in `load'
-C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$lightPurple\".\A         on line 2 of C:\Users\mazhar.ZT\gitpages\phpstudent.github.io\assets\style\import\header.sass\A \A 1: div#header\A 2: 	background-color: $lightPurple\A 3: 	text-align: center\A 4: 	div#headerInner\A 5: 		width: 90%\A 6: 		margin: auto\A 7: 		text-align: initial"; }
+/*# sourceMappingURL=header.css.map */
