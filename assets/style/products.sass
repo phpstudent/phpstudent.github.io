@@ -1,0 +1,55 @@
+@import import/variables	
+body
+	margin: 0
+	div#wrapper
+		@import import/header.sass
+		div#banner
+			content: url(../img/about/banner.jpg)
+			height: auto
+			width: 100%
+		div#content
+			font-family: arial, helvetica, sans-serif		
+			padding: 20px 10px
+			background-color: $lightPurple
+			width: 100%
+			box-sizing: border-box
+			display: flex
+			div#sideNav
+				flex: 0 0 250px
+				nav
+					ul
+						list-style-type: none
+						background-color: grey
+						display: inline-block
+						padding: 5px 10px
+						margin: 0
+						li
+							padding: 10px 5px
+							margin: 0
+
+							a
+								text-decoration: none
+								color: white
+								font-weight: 600
+			div#details
+				margin-left: 20px
+				padding: 0 15px
+				border-left: 1px solid rgba(0,0,0,0.6)
+			&:after
+				content: ""
+				display: table
+				clear: both	
+
+	@import import/footer.sass
+
+@media only screen and(max-width: 900px)
+	body
+		div#wrapper
+			div#content
+				display: block
+				div#sideNav
+					display: none
+				div#details
+					margin: 0
+					border: none
+				

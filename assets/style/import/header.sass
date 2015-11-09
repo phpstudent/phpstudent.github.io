@@ -23,7 +23,7 @@ div#header
 			display: none
 		input#toggler
 			display: none
-		div#navDiv
+		div#navDivH
 			margin: 4px 0 2px 0
 			float: right
 			nav#topNav
@@ -62,9 +62,8 @@ div#header
 						&:hover > ul
 							display: block
 							position: absolute
-							box-sizing: border-box
 							top: 100%
-							width: 100%
+							max-width: 230px
 							border-top: 1px solid red
 							
 							li
@@ -104,7 +103,7 @@ div#header
 @media only screen and(max-width: 1160px)
 	div#header
 		div#headerInner
-			div#navDiv
+			div#navDivH
 				nav#topNav
 					ul.mainLinks
 						li
@@ -116,7 +115,7 @@ div#header
 			text-align: center
 			div#logo
 				float: none
-			div#navDiv
+			div#navDivH
 				float: none
 
 @media only screen and(max-width: 765px)

@@ -1,9 +1,22 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Projects</title>
 		<link rel="stylesheet" type="text/css" href="assets/style/about.css">
+		<link rel="stylesheet" type="text/css" href="assets/js/plugins/meanmenu.min.css">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript" src="assets/js/jquery.js"></script>
+		<script src="assets/js/plugins/jquery.meanmenu.min.js"></script>
+	  	<script type="text/javascript">
+	  		jQuery(document).ready(function () {
+			    jQuery('nav#topNav').meanmenu({
+					meanMenuContainer: 'div#navDivH',
+					meanScreenWidth: "765",
+					
+			    });
+			});
+	  	</script>
 	</head>
 	<body>
 		<!-- main wrapper div of the documnet starts here-->
@@ -18,19 +31,21 @@
 							<img id="topLogo" src="assets/img/logo.png" alt="Zahra Security Systems and Electricals">
 						</a>
 					</div>
-					<!-- menu toggle div starts here-->
-					<label for="toggler" class="toggle"></label>				
-					<input type="checkbox" id="toggler" value="">
-					<!--menu toggle div end here-->
-					
 					<!--navigation div inside header starts here-->
-					<div id="navDiv">
+					<div id="navDivH">
 						<!--navigation bar at the top of the document starts here-->
 						<nav id="topNav">
 							<ul class="mainLinks">
 								<li><a href="index.html">home</a> </li>
-								<li><a class="active" href="about.html">about us</a> </li>
-								<li><a href="#products">products</a> </li>
+								<li><a href="about.html">about us</a> </li>
+								<li><a class="active" href="products.html">products</a> 
+									<ul class="sublinks">
+										<li><a href="#cctv">CCTV Systems</a></li>
+										<li><a href="#sec">Security Management System</a></li>
+										<li><a href="#intercom">Intercom Systems</a></li>
+										<li><a href="#parkingSystem">Parking Systems</a></li>
+									</ul>
+								</li>
 								<li><a href="#services">services</a> </li>
 								<li><a href="projects.html">projects</a> 
 									<ul class="sublinks">
@@ -46,7 +61,7 @@
 									</ul>
 								</li>
 							</ul>
-						</nav>
+						</nav>						
 						<!--navigation bar at the top of the document end here-->
 					</div>
 					<!--navigation div inside header end here-->
@@ -116,7 +131,7 @@
 			<!--footer div starts here-->
 		<div id="footer">
 			<!--navigation div inside footer starts here-->
-			<div id="navDiv">
+			<div id="navDivF">
 				<!--navigation bar at the bottom of the document starts here-->
 				<nav id="bottomNav">
 					<ul class="mainLinks">

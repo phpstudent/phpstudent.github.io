@@ -22,16 +22,16 @@ body {
         display: none; }
       body div#wrapper div#header div#headerInner input#toggler {
         display: none; }
-      body div#wrapper div#header div#headerInner div#navDiv {
+      body div#wrapper div#header div#headerInner div#navDivH {
         margin: 4px 0 2px 0;
         float: right; }
-        body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul {
+        body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul.mainLinks, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul {
           display: block;
           background-color: #F3F3DC;
           margin: 0;
           padding: 0;
           z-index: 2; }
-          body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li {
+          body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul li {
             display: inline-block;
             vertical-align: middle;
             position: relative;
@@ -42,48 +42,48 @@ body {
             color: rgba(0, 0, 0, 0.5);
             font-weight: 600;
             list-style-type: none; }
-            body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > a:after, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li:hover > a:after {
+            body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li:hover > a:after, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul li:hover > a:after {
               opacity: 1;
               width: 100%; }
-            body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li ul, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li ul {
+            body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li ul, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul li ul {
               display: none; }
-              body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li ul li a:after, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li ul li a:after {
+              body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li ul li a:after, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul li ul li a:after {
                 display: none; }
-            body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li ul:before, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li ul:after, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li ul:before, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li ul:after {
+            body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li ul:before, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li ul:after, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul li ul:before, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul li ul:after {
               content: " ";
               display: table; }
-            body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li ul:after, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li ul:after {
+            body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li ul:after, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul li ul:after {
               clear: both; }
-            body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li:hover > ul {
+            body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li:hover > ul, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul li:hover > ul {
               display: block;
               position: absolute;
               box-sizing: border-box;
               top: 100%;
               width: 100%;
               border-top: 1px solid red; }
-              body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul li, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li:hover > ul li {
+              body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li:hover > ul li, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul li:hover > ul li {
                 width: 100%;
                 display: block;
                 height: initial;
                 padding: 0; }
-                body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul li a, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li:hover > ul li a {
+                body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li:hover > ul li a, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul li:hover > ul li a {
                   display: block;
                   text-decoration: none;
                   color: inherit;
                   padding: 12px 15px;
                   font-size: 0.9em; }
-                  body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul li a:hover, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li:hover > ul li a:hover {
+                  body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li:hover > ul li a:hover, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul li:hover > ul li a:hover {
                     background-color: white;
                     color: black; }
-            body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li a {
+            body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li a, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul li a {
               display: block;
               text-decoration: none;
               color: inherit;
               padding: 12px 15px;
               font-size: 1em; }
-              body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a:hover, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a.active, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li a:hover, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li a.active {
+              body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li a:hover, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li a.active, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul li a:hover, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul li a.active {
                 color: black; }
-              body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a:after, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li a:after {
+              body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li a:after, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul li a:after {
                 content: "";
                 display: block;
                 width: 0;
@@ -91,86 +91,23 @@ body {
                 background-color: orange;
                 opacity: 0;
                 transition: width 0.7s; }
-              body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a.active:after, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul li a.active:after {
+              body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li a.active:after, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul li a.active:after {
                 opacity: 1;
                 width: 100%; }
   @media only screen and (max-width: 1160px) {
-    body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a {
+    body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li a {
       padding: 12px 6px; } }
   @media only screen and (max-width: 1040px) {
     body div#wrapper div#header div#headerInner {
       text-align: center; }
       body div#wrapper div#header div#headerInner div#logo {
         float: none; }
-      body div#wrapper div#header div#headerInner div#navDiv {
+      body div#wrapper div#header div#headerInner div#navDivH {
         float: none; } }
   @media only screen and (max-width: 765px) {
-    body div#wrapper div#header div#headerInner label.toggle {
-      display: inline-block;
-      cursor: pointer;
-      z-index: 2;
-      font-size: 1.5em;
-      position: absolute;
-      left: 20px;
-      top: 30px; }
-      body div#wrapper div#header div#headerInner label.toggle:before {
-        content: "";
-        background-image: url("../img/menu-icon.png");
-        background-size: 20px 20px;
-        height: 20px;
-        width: 20px;
-        display: inline-block; }
-    body div#wrapper div#header div#headerInner input#toggler:checked + div#navDiv {
-      height: 100%;
-      margin-left: 0px; }
-    body div#wrapper div#header div#headerInner div#navDiv {
-      width: 100%;
-      z-index: 2;
-      position: absolute;
-      left: 0;
-      top: 80px;
-      display: inline-block;
-      margin-left: -100%;
-      transition: margin-left 0.7s;
-      text-align: left; }
-      body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks {
-        display: block;
-        background-color: #6956A7; }
-        body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li {
-          padding: 0;
-          padding-left: 20px;
-          display: list-item;
-          position: initial;
-          color: rgba(255, 255, 255, 0.7); }
-          body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a {
-            display: block; }
-            body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a:hover {
-              color: white; }
-            body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a:after, body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li a.active {
-              display: none; }
-          body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li ul {
-            display: block;
-            background-color: #6956A7;
-            position: initial;
-            margin: auto; }
-            body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li ul li a {
-              padding: 6px;
-              display: block; }
-          body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul.sublinks {
-            display: block;
-            position: initial;
-            border: none;
-            padding-bottom: 0; }
-            body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul.sublinks li {
-              color: rgba(255, 255, 255, 0.7);
-              margin-top: 0;
-              padding-left: 20px; }
-              body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul.sublinks li a {
-                font-size: 1em;
-                padding: 6px 6px; }
-                body div#wrapper div#header div#headerInner div#navDiv nav#topNav ul.mainLinks li:hover > ul.sublinks li a:hover {
-                  background-color: #6956A7;
-                  color: white; } }
+    body div#wrapper div#header div#headerInner {
+      margin: 0 0 0 0;
+      width: 100%; } }
   body div#wrapper div#banner {
     content: url(../img/clients/banner.jpg);
     height: auto;
@@ -218,21 +155,21 @@ body {
     padding: 20px 0;
     background-color: #6956A7;
     color: white; }
-    body div#footer div#navDiv nav#bottomNav ul.mainLinks {
+    body div#footer div#navDivF nav#bottomNav ul.mainLinks {
       padding: 0 20px; }
-      body div#footer div#navDiv nav#bottomNav ul.mainLinks span.bNav {
+      body div#footer div#navDivF nav#bottomNav ul.mainLinks span.bNav {
         vertical-align: top; }
-        body div#footer div#navDiv nav#bottomNav ul.mainLinks span.bNav li {
+        body div#footer div#navDivF nav#bottomNav ul.mainLinks span.bNav li {
           list-style-type: none;
           display: inline-block;
           padding: 0 15px;
           font-weight: 700;
           margin-bottom: 10px; }
-          body div#footer div#navDiv nav#bottomNav ul.mainLinks span.bNav li a {
+          body div#footer div#navDivF nav#bottomNav ul.mainLinks span.bNav li a {
             text-decoration: none;
             text-transform: uppercase;
             color: rgba(255, 255, 255, 0.8); }
-            body div#footer div#navDiv nav#bottomNav ul.mainLinks span.bNav li a:hover, body div#footer div#navDiv nav#bottomNav ul.mainLinks span.bNav li a.active {
+            body div#footer div#navDivF nav#bottomNav ul.mainLinks span.bNav li a:hover, body div#footer div#navDivF nav#bottomNav ul.mainLinks span.bNav li a.active {
               color: white; }
     body div#footer div.copyright {
       width: 85%;
@@ -248,12 +185,12 @@ body {
       display: block;
       clear: both; }
   @media only screen and (max-width: 820px) {
-    body div#footer div#navDiv nav#bottomNav ul.mainLinks {
+    body div#footer div#navDivF nav#bottomNav ul.mainLinks {
       padding: 0 20px; }
-      body div#footer div#navDiv nav#bottomNav ul.mainLinks span.bNav {
+      body div#footer div#navDivF nav#bottomNav ul.mainLinks span.bNav {
         text-align: left;
         display: inline-block; }
-        body div#footer div#navDiv nav#bottomNav ul.mainLinks span.bNav li {
+        body div#footer div#navDivF nav#bottomNav ul.mainLinks span.bNav li {
           display: block; }
     body div#footer div.copyright span#left {
       float: none;
