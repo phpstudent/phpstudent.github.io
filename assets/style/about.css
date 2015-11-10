@@ -124,10 +124,17 @@ body {
     body div#wrapper div#content p {
       line-height: 1.5;
       margin-left: 10px; }
+      body div#wrapper div#content p span.quote {
+        font-size: 50px;
+        font-weight: 600; }
     body div#wrapper div#content div.subheads {
       margin-left: 20px; }
       body div#wrapper div#content div.subheads h2, body div#wrapper div#content div.subheads h3 {
         color: orange; }
+      body div#wrapper div#content div.subheads p span.quote {
+        font-size: 20px;
+        font-weight: 600;
+        color: purple; }
     body div#wrapper div#content div#projects {
       padding: 10px 20px;
       text-align: center; }
