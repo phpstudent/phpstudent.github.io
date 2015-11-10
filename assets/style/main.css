@@ -78,7 +78,8 @@ body {
             body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li ul, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul li ul {
               display: none;
               min-width: 100%;
-              width: auto; }
+              width: auto;
+              text-align: left; }
               body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li ul li, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul li ul li {
                 white-space: nowrap; }
                 body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li ul li a:after, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul li ul li a:after {
