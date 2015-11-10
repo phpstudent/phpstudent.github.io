@@ -44,9 +44,13 @@ div#header {
             opacity: 1;
             width: 100%; }
           div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li ul, div#header div#headerInner div#navDivH nav#topNav ul li ul {
-            display: none; }
-            div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li ul li a:after, div#header div#headerInner div#navDivH nav#topNav ul li ul li a:after {
-              display: none; }
+            display: none;
+            min-width: 100%;
+            width: auto; }
+            div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li ul li, div#header div#headerInner div#navDivH nav#topNav ul li ul li {
+              white-space: nowrap; }
+              div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li ul li a:after, div#header div#headerInner div#navDivH nav#topNav ul li ul li a:after {
+                display: none; }
           div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li ul:before, div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li ul:after, div#header div#headerInner div#navDivH nav#topNav ul li ul:before, div#header div#headerInner div#navDivH nav#topNav ul li ul:after {
             content: " ";
             display: table; }
@@ -56,7 +60,6 @@ div#header {
             display: block;
             position: absolute;
             top: 100%;
-            max-width: 230px;
             border-top: 1px solid red; }
             div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li:hover > ul li, div#header div#headerInner div#navDivH nav#topNav ul li:hover > ul li {
               width: 100%;

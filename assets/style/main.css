@@ -76,9 +76,13 @@ body {
               opacity: 1;
               width: 100%; }
             body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li ul, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul li ul {
-              display: none; }
-              body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li ul li a:after, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul li ul li a:after {
-                display: none; }
+              display: none;
+              min-width: 100%;
+              width: auto; }
+              body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li ul li, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul li ul li {
+                white-space: nowrap; }
+                body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li ul li a:after, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul li ul li a:after {
+                  display: none; }
             body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li ul:before, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li ul:after, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul li ul:before, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul li ul:after {
               content: " ";
               display: table; }
@@ -88,7 +92,6 @@ body {
               display: block;
               position: absolute;
               top: 100%;
-              max-width: 230px;
               border-top: 1px solid red; }
               body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li:hover > ul li, body div#wrapper div#header div#headerInner div#navDivH nav#topNav ul li:hover > ul li {
                 width: 100%;
