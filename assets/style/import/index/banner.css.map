@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AACC,6BAAY;EACX,MAAM,EAAE,GAAG",
+"mappings": "AAAA,gBAAgB;EACf,MAAM,EAAE,GAAG;EACX,6BAAY;IACX,MAAM,EAAE,GAAG",
 "sources": ["banner.sass"],
 "names": [],
 "file": "banner.css"

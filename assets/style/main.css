@@ -141,8 +141,10 @@ body {
     body div#wrapper div#header div#headerInner {
       margin: 0 0 0 0;
       width: 100%; } }
-  body div#wrapper div#carouselwrap div.carousel {
+  body div#wrapper div#carouselwrap {
     height: 675; }
+    body div#wrapper div#carouselwrap div.carousel {
+      height: 675; }
   body div#wrapper div#clients {
     text-align: center;
     background-color: #F3F3DC; }
