@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AACC,6BAAY;EACX,MAAM,EAAE,GAAG",
+"sources": ["banner.sass"],
 "names": [],
 "file": "banner.css"
 }
