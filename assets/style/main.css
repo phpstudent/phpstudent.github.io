@@ -141,14 +141,6 @@ body {
     body div#wrapper div#header div#headerInner {
       margin: 0 0 0 0;
       width: 100%; } }
-  body div#wrapper div#carouselwrap {
-    position: relative;
-    width: 100%;
-    padding-bottom: 100%; }
-    body div#wrapper div#carouselwrap div.carousel {
-      position: absolute;
-      width: 100%;
-      height: 50%; }
   body div#wrapper div#clients {
     text-align: center;
     background-color: #F3F3DC; }
