@@ -119,8 +119,15 @@ body {
     font-family: arial, helvetica, sans-serif;
     padding: 20px 50px;
     background-color: #F3F3DC; }
-    body div#wrapper div#content h1 {
-      color: orange; }
+    body div#wrapper div#content div#formWrap p input, body div#wrapper div#content div#formWrap p textarea {
+      padding: 10px;
+      border: 1px solid #E5E5E5;
+      width: 200px;
+      color: #999999;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px; }
+    body div#wrapper div#content div#formWrap p textarea {
+      height: 200px;
+      width: 400px; }
   body div#footer {
     text-align: center;
     padding: 20px 0;
