@@ -119,15 +119,28 @@ body {
     font-family: arial, helvetica, sans-serif;
     padding: 20px 50px;
     background-color: #F3F3DC; }
+    body div#wrapper div#content div#formWrap h2 {
+      color: #6956a7; }
     body div#wrapper div#content div#formWrap p input, body div#wrapper div#content div#formWrap p textarea {
       padding: 10px;
       border: 1px solid #E5E5E5;
       width: 200px;
       color: #999999;
       box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px; }
+      body div#wrapper div#content div#formWrap p input:hover, body div#wrapper div#content div#formWrap p input:focus, body div#wrapper div#content div#formWrap p textarea:hover, body div#wrapper div#content div#formWrap p textarea:focus {
+        border-color: 1px solid #C9C9C9;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px; }
     body div#wrapper div#content div#formWrap p textarea {
       height: 200px;
       width: 400px; }
+    body div#wrapper div#content div#formWrap .submit input {
+      width: 100px;
+      height: 40px;
+      background-color: orange;
+      color: white;
+      border-radius: 3px;
+      font-size: 1.1em;
+      font-weight: 700; }
   body div#footer {
     text-align: center;
     padding: 20px 0;
