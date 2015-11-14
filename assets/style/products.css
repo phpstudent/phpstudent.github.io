@@ -125,6 +125,7 @@ body {
     body div#wrapper div#maincontent div#sideNav {
       flex: 0 0 250px; }
       body div#wrapper div#maincontent div#sideNav nav ul {
+        border-radius: 10px;
         list-style-type: none;
         background-color: grey;
         display: inline-block;

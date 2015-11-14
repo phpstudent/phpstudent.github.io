@@ -11,7 +11,11 @@ body
 			font-family: arial, helvetica, sans-serif		
 			padding: 20px 50px
 			background-color: $lightPurple
+			.contact
+				display: inline-block
+				vertical-align: top
 			div#formWrap
+				padding-right: 10%
 				h2
 					color: rgba(105, 86, 167, 1)
 				p
@@ -35,7 +39,14 @@ body
 					border-radius: 3px
 					font-size: 1.1em
 					font-weight: 700
-
+			div#details
+				h1,h2,h3
+					color: rgba(105, 86, 167, 1)
+			div#map
+				margin-top: 25px
+				iframe
+					height: 450
+					width: 100%
 	@import import/footer.sass
 
 @media only screen and (max-width: 450px)
