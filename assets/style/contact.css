@@ -151,7 +151,6 @@ body {
     body div#wrapper div#content div#map {
       margin-top: 25px; }
       body div#wrapper div#content div#map iframe {
-        height: 450;
         width: 100%; }
   body div#footer {
     text-align: center;
@@ -203,8 +202,13 @@ body {
       display: block;
       margin-top: 5px; } }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 550px) {
   body div#wrapper div#content {
-    padding: 20px 20px; } }
+    padding: 20px 20px; }
+    body div#wrapper div#content div#formWrap {
+      padding-right: 0;
+      width: 100%; }
+      body div#wrapper div#content div#formWrap p textarea {
+        width: 90%; } }
 
 /*# sourceMappingURL=contact.css.map */
