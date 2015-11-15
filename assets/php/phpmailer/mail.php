@@ -9,7 +9,7 @@ $email->Host = 'smtp.gmail.com';
 $email->SMTPAuth = true;
 
 $email->Username = 'mazhartejani@gmail.com';
-$email->Password = 'Tryagain110';
+$email->Password = '';
 $email->SMTPSecure = 'tls';
 $email->Port = 587;
 
