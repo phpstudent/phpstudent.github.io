@@ -6,7 +6,12 @@ body
 		div#banner
 			content: url(../img/about/banner.jpg)
 			height: auto
-			width: 100%
+			max-width: 100%
+			&:after
+				content: url(../img/about/banner.jpg)
+				max-width: 100%
+				width: auto
+
 		div#maincontent
 			font-family: arial, helvetica, sans-serif		
 			padding: 20px 10px
@@ -44,32 +49,39 @@ body
 					font-size: 3em
 				p
 					line-height: 1.4
-				div.systems
-					padding-bottom: 50px					
-					border-bottom: 1px solid black
+				div.sysCat
 					h2
 						font-size: 1.8em
 						color: rgba(105,86,167,1)
-					div.brands
+					div.systems
+						padding-bottom: 50px
 						padding-left: 20px
-						margin-top: 30px
+						border-bottom: 1px solid black
 						h3
-							color: rgba(105,86,167,0.8)
 							font-size: 1.7em
-						p
-							color: rgba(0,0,0,0.8)
+							color: rgba(105,86,167,0.9)
+							margin-bottom: 0
+						div.brands
+							padding-left: 30px
+							margin-top: 30px
+							h4
+								color: rgba(105,86,167,0.8)
+								font-size: 1.6em
+								margin-bottom: 0
+							p
+								color: rgba(0,0,0,0.8)
 
-						div.pics
-							background-color: white
-							border: 2px solid #6956A7
-							border-radius: 15px
-							text-align: center
-							display: flex
-							justify-content: space-around
-							align-items: center
-							div img
-								width: 100%
-								max-width: 150px
+							div.pics
+								background-color: white
+								border: 2px solid #6956A7
+								border-radius: 15px
+								text-align: center
+								display: flex
+								justify-content: space-around
+								align-items: center
+								div img
+									width: 100%
+									max-width: 150px
 			&.fixed
 				div#clearflow
 					flex: 0 0 250px
