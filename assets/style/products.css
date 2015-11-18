@@ -151,39 +151,40 @@ body {
       body div#wrapper div#maincontent div#products h1 {
         color: orange;
         font-size: 3em; }
-      body div#wrapper div#maincontent div#products p {
+      body div#wrapper div#maincontent div#products p, body div#wrapper div#maincontent div#products ol li {
         line-height: 1.4; }
-      body div#wrapper div#maincontent div#products div.sysCat h2 {
-        font-size: 1.8em;
-        color: #6956a7; }
-      body div#wrapper div#maincontent div#products div.sysCat div.systems {
-        padding-bottom: 50px;
-        padding-left: 20px;
+      body div#wrapper div#maincontent div#products div.sysCat {
         border-bottom: 1px solid black; }
-        body div#wrapper div#maincontent div#products div.sysCat div.systems h3 {
-          font-size: 1.7em;
-          color: rgba(105, 86, 167, 0.9);
-          margin-bottom: 0; }
-        body div#wrapper div#maincontent div#products div.sysCat div.systems div.brands {
-          padding-left: 30px;
-          margin-top: 30px; }
-          body div#wrapper div#maincontent div#products div.sysCat div.systems div.brands h4 {
-            color: rgba(105, 86, 167, 0.8);
-            font-size: 1.6em;
+        body div#wrapper div#maincontent div#products div.sysCat h2 {
+          font-size: 1.8em;
+          color: #6956a7; }
+        body div#wrapper div#maincontent div#products div.sysCat div.systems {
+          padding-bottom: 50px;
+          padding-left: 20px; }
+          body div#wrapper div#maincontent div#products div.sysCat div.systems h3 {
+            font-size: 1.7em;
+            color: rgba(105, 86, 167, 0.9);
             margin-bottom: 0; }
-          body div#wrapper div#maincontent div#products div.sysCat div.systems div.brands p {
-            color: rgba(0, 0, 0, 0.8); }
-          body div#wrapper div#maincontent div#products div.sysCat div.systems div.brands div.pics {
-            background-color: white;
-            border: 2px solid #6956A7;
-            border-radius: 15px;
-            text-align: center;
-            display: flex;
-            justify-content: space-around;
-            align-items: center; }
-            body div#wrapper div#maincontent div#products div.sysCat div.systems div.brands div.pics div img {
-              width: 100%;
-              max-width: 150px; }
+          body div#wrapper div#maincontent div#products div.sysCat div.systems div.brands {
+            padding-left: 30px;
+            margin-top: 30px; }
+            body div#wrapper div#maincontent div#products div.sysCat div.systems div.brands h4 {
+              color: rgba(105, 86, 167, 0.8);
+              font-size: 1.6em;
+              margin-bottom: 0; }
+            body div#wrapper div#maincontent div#products div.sysCat div.systems div.brands p {
+              color: rgba(0, 0, 0, 0.8); }
+            body div#wrapper div#maincontent div#products div.sysCat div.systems div.brands div.pics {
+              background-color: white;
+              border: 2px solid #6956A7;
+              border-radius: 15px;
+              text-align: center;
+              display: flex;
+              justify-content: space-around;
+              align-items: center; }
+              body div#wrapper div#maincontent div#products div.sysCat div.systems div.brands div.pics div img {
+                width: 100%;
+                max-width: 150px; }
     body div#wrapper div#maincontent.fixed div#clearflow {
       flex: 0 0 250px; }
     body div#wrapper div#maincontent.fixed div#sideNav {
