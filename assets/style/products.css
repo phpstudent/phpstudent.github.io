@@ -112,7 +112,7 @@ body {
       margin: 0 0 0 0;
       width: 100%; } }
   body div#wrapper div#banner {
-    content: url(../img/about/banner.jpg);
+    content: url(../img/products/banner.jpg);
     height: auto;
     max-width: 100%; }
     body div#wrapper div#banner:after {
