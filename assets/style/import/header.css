@@ -46,7 +46,8 @@ div#header {
           div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li ul, div#header div#headerInner div#navDivH nav#topNav ul li ul {
             display: none;
             min-width: 100%;
-            width: auto; }
+            width: auto;
+            text-align: left; }
             div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li ul li, div#header div#headerInner div#navDivH nav#topNav ul li ul li {
               white-space: nowrap; }
               div#header div#headerInner div#navDivH nav#topNav ul.mainLinks li ul li a:after, div#header div#headerInner div#navDivH nav#topNav ul li ul li a:after {
